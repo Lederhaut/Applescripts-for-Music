@@ -1,4 +1,19 @@
-# Byte-compiled / optimized / DLL files
+# General
+.DS_Store
+
+# Secrets
+.secrets/*
+
+# Exclude LLM files
+*.llm
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.cursorrule
+copilot-instructions.md
+.windsurfrules
+
+# Python
 __pycache__/
 *.py[codz]
 *$py.class
